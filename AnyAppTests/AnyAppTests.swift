@@ -22,4 +22,8 @@ class AnyAppTests: XCTestCase {
         XCTAssertEqual(2*2, 4)
     }
 
+    func testWhenGivenTwoInt_ReturnSub() {
+        XCTAssertEqual(2-2, 4)
+    }
+
 }
