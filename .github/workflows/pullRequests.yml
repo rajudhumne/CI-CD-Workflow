@@ -10,7 +10,7 @@ on:
 # jobs consist tests
 jobs:
   test:
-    runs-on: macos-11
+    runs-on: macos-latest
     #below are the steps which will run
     steps:
       - uses: actions/checkout@v2
@@ -36,7 +36,7 @@ jobs:
         # checking if cache is present to avoid loading packages again
 
       - name: Swift Packages Cache
-        uses: actions/cache@v2
+        uses: actions/cache@v4
         id: cache
         with:
           path: |
