@@ -23,7 +23,7 @@ class AnyAppTests: XCTestCase {
     }
 
     func testWhenGivenTwoInt_ReturnSub() {
-        XCTAssertEqual(2-2, 4)
+        XCTAssertEqual(2-2, 0)
     }
 
 }
