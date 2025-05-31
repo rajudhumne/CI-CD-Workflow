@@ -10,7 +10,7 @@ on:
 # jobs consist tests
 jobs:
   test:
-    runs-on: macos-11
+    runs-on: macos-latest
     #below are the steps which will run
     steps:
       - uses: actions/checkout@v2
